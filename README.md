@@ -23,7 +23,7 @@ Understand how sales vary across different days of the month.
 
 - Counted frequency of transactions per day.
 
-![alt text](freq_days_graph.png)
+![alt text](graphs/freq_days_graph.png)
 
 *Observation:* 31st appears less frequently since not all months have it. It is clear that coffee is an everyday habit, given the transactions in the dataset.
 
@@ -46,11 +46,11 @@ Explore and preprocess monetary data for better statistical analysis.
 
 Histogram — Original vs Scaled Data
 
-![alt text](orig_n_scaled_graph.png)
+![alt text](graphs/orig_n_scaled_graph.png)
 
 Histogram — Original vs Normalized (Box–Cox) Data
 
-![alt text](orig_n_scaled_graph.png)
+![alt text](graphs/orig_n_scaled_graph.png)
 
 Insight: Scaling preserves distribution shape; Box–Cox normalization improves normality, preparing data for advanced modeling.
 
@@ -91,9 +91,9 @@ I tried 4 different potential solutions:
 
 Using fewer trees proved to be the best solution. To visualize the progress, I compared cv scores to train R² on different max_depths for initial RandomForestRegressor and for better one. I also took double the amount of cvs, so the progress would be visible.
 Initial:
-![alt text](initial_rfr.png)
+![alt text](graphs/initial_rfr.png)
 Improved:
-![alt text](optimized_rfr.png)
+![alt text](graphs/optimized_rfr.png)
 
 ### Final Thoughts
 
