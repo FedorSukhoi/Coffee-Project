@@ -50,7 +50,7 @@ Histogram — Original vs Scaled Data
 
 Histogram — Original vs Normalized (Box–Cox) Data
 
-![alt text](graphs/orig_n_scaled_graph.png)
+![alt text](graphs/orig_n_bc_graph.png)
 
 Insight: Scaling preserves distribution shape; Box–Cox normalization improves normality, preparing data for advanced modeling.
 
